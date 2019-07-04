@@ -1,0 +1,17 @@
+
+<div>
+  <img src="{{skater.image}}" alt="">
+  <h3>{{skater.name}}</h3>
+  <p>{{skater.country}}</p>
+</div>
+
+<div>
+  <p>{{skater.record}}</p>
+  <p>{{skater.description}}</p>
+  {{#if skater.program1}}
+    <p>{{skater.program1}}</p>
+  {{/if}}
+  {{#if skater.program2}}
+    <p>{{skater.program2}}</p>
+  {{/if}}
+</div>

@@ -1,0 +1,34 @@
+<div class="go-back-link">
+  <a href="/gallery">Go back to skaters gallery</a>
+</div>
+
+<div class="skater-details">
+
+  <div class="skater-left">
+    <h1 class="single-skater-name">{{oneSkater.name}}</h1>
+    <img src="{{oneSkater.image}}" alt="skater-picture">
+  </div>
+
+  <div class="skater-right">
+    <h2>Representing {{oneSkater.country}}</h2>
+    <p><b>Record: </b> {{oneSkater.record}}</p>
+    <p>{{oneSkater.description}}</p>
+    {{#if oneSkater.program1}}
+    <p><b>One or two noteworthy programs:</b></p>
+    <ul class="program-list">
+      <li>{{oneSkater.program1}}</li>
+
+      {{#if oneSkater.program2}}
+      <li>{{oneSkater.program2}}</li>
+      {{/if}}
+
+    </ul>
+
+    {{/if}}
+
+
+
+  </div>
+
+
+</div>

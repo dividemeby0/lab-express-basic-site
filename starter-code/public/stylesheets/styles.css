@@ -1,0 +1,141 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: rgb(18, 7, 37);
+  padding-top: 15px;
+  padding-bottom: 10px;
+  height: 5%;
+}
+
+nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+ }
+
+nav li {
+  font-weight: 800;
+  list-style-type: none;
+  text-align: center;
+  width: 25%;
+ }
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px; 
+}
+
+#home-image {
+  background: url(/images/fs-gala.jpg);
+  display: flex;
+  height: 95vh;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#home-image p {
+  color: white;
+  font-size: 60px;
+  font-weight: 1000;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.about-container {
+  /* background: url(/images/fs-gala.jpg);
+  background-size: 100vh; */
+  margin-bottom: 2%;
+}
+
+#about-why, #about-how {
+  background-color: white;
+  color: black;
+}
+
+#about-what {
+  background-color: rgba(18, 7, 37);
+  color: white;
+}
+
+.about-container h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.about-container p {
+  text-justify: distribute-all-lines;
+  font-size: 18px;
+}
+
+.about-container li {
+  text-justify: distribute-all-lines;
+  font-size: 18px;
+}
+
+.about-div {
+  padding: 10px 20px;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 rgb(18, 7, 37);
+  margin: 50px 5% 0 5%;
+  width: 90%;
+}
+
+.my-list {
+  line-height: 2;
+}
+
+#all-skaters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3% auto;
+}
+
+.skater-container {
+  width: 30%;
+  text-align: center;
+}
+
+.skater-image {
+  width: 50%;
+}
+
+.go-back-link {
+  margin: 1%;
+}
+
+.go-back-link a {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.skater-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+}
+
+.single-skater-name {
+  margin: 0 0 1% 0;
+}
+
+.skater-right {
+  margin: auto 2%;
+}
+
+.program-list {
+  line-height: 2;
+}

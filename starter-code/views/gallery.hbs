@@ -1,0 +1,12 @@
+<div id="all-skaters">
+  {{#each skaters}}
+
+  <div class="skater-container">
+    <img src="{{this.image}}" alt="skater picture" class="skater-image">
+    <h3>{{this.name}}</h3>
+    <p>{{this.country}}</p>
+    <a href="/gallery/{{this._id}}">Learn more</a>
+  </div>
+
+  {{/each}}
+</div>
